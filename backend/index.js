@@ -7,6 +7,7 @@ const port = 5000;
 const cors = require('cors')
 require("./db");
 
+
 app.use(cors())
 
 app.get('/', (req, resp)=>{
